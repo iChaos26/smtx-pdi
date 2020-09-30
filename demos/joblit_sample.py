@@ -3,6 +3,7 @@ import pandas
 from sklearn import model_selection
 from sklearn.linear_model import LogisticRegression
 import joblib
+
 url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 dataframe = pandas.read_csv(url, names=names)
